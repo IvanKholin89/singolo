@@ -1,5 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 html {
+    width: 1020px;
+    margin: 0 auto;
     font-size: 10px;
+    
 }
 
 body {
