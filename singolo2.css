@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', 'Arial', sans-serif;
+}
+
+html {
+    width: 1020px;
+    margin: 0 auto;
+    font-size: 10px;
+}
+
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.portfolio {
+    padding: 60px 0 47px;
+    background-color: #2d303a;
+    border-bottom: 6px solid #323746;
+}
+
+.portfolio__title {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #666d89;
+    letter-spacing: 0.02rem;
+}
+
+.portfolio__description {
+    margin-top: 22px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #767e9e;
+    letter-spacing: -0.02rem;
+}
+
+.portfolio__menu {
+    display: flex;
+    list-style: none;
+    margin: 15px 0 19px;
+}
+
+.portfolio__menu > li {
+    margin-right: 10px;
+    padding: 2px 6px 3px 6px;
+    font-size: 1.2rem;
+    color: #767e9e;
+    border: 1px solid #666d89;
+    border-radius: 4px;
+    transition: all 0.2s ease-in;
+}
+
+.portfolio__menu > li:hover {
+    color: #c5c5c5;
+    border-color: #c5c5c5;
+    cursor: pointer;
+}
+
+.portfolio__menu > li:active {
+    background-color: #c5c5c5;
+    color: #2d303a;
+    border-color: #323746;
+}
+
+.portfolio__images {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.portfolio__images > img {
+    padding-bottom: 20px;
+}
+
+.about_us {
+    background-color: #f2f2f2;
+    border-bottom: 6px solid #ffffff;
+    padding: 59px 0 67px;
+}
+
+.about_us__title {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #666d89;
+    letter-spacing: -0.02rem;
+}
+
+.about_us__description {
+    margin: 18px 0 45px;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    font-weight: 300;
+    color: #767e9e;
+    letter-spacing: -0.01rem;
+
+}
+
+.about_us__employees {
+    display: flex;
+    justify-content: space-between;
+}
+
+.employer {
+    max-width: 300px;
+}
+
+.employer__name {
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-top: 13px;
+    letter-spacing: -0.01rem;
+    color: #666d89;
+}
+
+.employer__description {
+    margin-top: 9px;
+    font-size: 1.2rem;
+    letter-spacing: -0.03rem;
+    line-height: 2.1rem;
+    text-align: justify;
+    color: #767e9e;
+}
+
+.employer__contact {
+    margin-top: 23px;
+}
+
+.soc-elem {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    border: 1px solid #727892;
+    border-radius: 50%;
+    opacity: 0.7;
+    transition: all 0.6s ease-in;
+}
+
+.soc-elem:hover {
+    transform: rotateY(360deg);
+    opacity: 1;
+}
+
+.soc-elem__facebook {
+    background-image: url('assets/images2/soc_icons/facebook.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.soc-elem__google {
+    background-image: url('assets/images2/soc_icons/google.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.soc-elem__twitter {
+    background-image: url('assets/images2/soc_icons/twitter.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.soc-elem__linkedin {
+    background-image: url('assets/images2/soc_icons/linkedin.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
